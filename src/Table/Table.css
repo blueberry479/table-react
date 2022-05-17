@@ -1,0 +1,11 @@
+td {
+    margin: 40px;
+}
+
+.item_block:hover{
+    background-color: rgb(166, 171, 233);
+}
+
+.head_block:hover{
+    background-color: rgba(5, 21, 253, 0.568);
+}
