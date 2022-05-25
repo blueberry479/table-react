@@ -15,7 +15,7 @@ function Table(props) {
             </thead>
             <tbody>
                 {Array.from(props.data).map((item) => (
-                    <tr key={item.id} onClick = {() => props.selectedItem(item)} className='item_block'>
+                    <tr key={item.id + item.phone[1]} onClick = {() => props.selectedItem(item)} className='item_block'>
                         <td>{item.id}</td>
                         <td>{item.fname}</td>
                         <td>{item.lname}</td>
